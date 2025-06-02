@@ -10,7 +10,6 @@
     "build": "vite build",
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
-    "postinstall": "cd ./server && npm install",
     "test": "vitest -c ./config/test/config.ts",
     "test:watch": "vitest",
     "test:e2e:ci": "npm start -- -r start:e2e:ci",
